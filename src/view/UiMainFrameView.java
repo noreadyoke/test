@@ -11,7 +11,7 @@ import controller.*;
 
 public class UiMainFrameView extends JFrame {
 	public UiMainFrameView() {
-		
+		String ngasal;
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (Exception e) {
